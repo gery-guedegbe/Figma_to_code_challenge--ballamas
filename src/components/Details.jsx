@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import articles from "../data";
+import detailImage from "../assets/images/detail-image.png";
 
 const Details = () => {
   const [isClicked, setIsClicked] = useState(false);
@@ -49,7 +50,7 @@ const Details = () => {
           initial={{ opacity: 0, x: -25 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.7 }}
-          src="/images/detail-image.png"
+          src={detailImage}
           alt="details_image"
           className="max-w-full md:max-w-md h-auto object-contain rounded-3xl"
         />
