@@ -1,26 +1,31 @@
+import person1 from "../src/assets/images/person_1.png";
+import person5 from "../src/assets/images/person_5.png";
+import person6 from "../src/assets/images/person_6.png";
+import jordanShoes from "../src/assets/images/jordan_shoes.png";
+
 const cartProduct = [
   {
-    image: "../assets/images/person_5.png",
+    image: person5,
     size: "Green Large",
     price: 100,
   },
   {
-    image: "../assets/images/person_1.png",
+    image: person1,
     size: "Green Large",
     price: 100,
   },
   {
-    image: "../assets/images/person_5.png",
+    image: person5,
     size: "Green Large",
     price: 100,
   },
   {
-    image: "../assets/images/person_6.png",
+    image: person6,
     size: "Green Large",
     price: 100,
   },
   {
-    image: "../assets/images/jordan_shoes.png",
+    image: jordanShoes,
     size: "Green Large",
     price: 100,
   },

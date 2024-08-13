@@ -256,7 +256,7 @@ const NavBar = () => {
                 </defs>
               </svg>
             </a>
-            <a href="#ff">
+            <a onClick={() => navigate("/cart")} href="#ff">
               <svg
                 width="20"
                 height="20"

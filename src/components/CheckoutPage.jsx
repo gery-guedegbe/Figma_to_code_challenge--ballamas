@@ -7,6 +7,8 @@ import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useNavigate } from "react-router-dom";
 import React from "react";
+import person5 from "../assets/images/person_5.png";
+import jordanShoes from "../assets/images/jordan_shoes.png";
 
 const CheckoutPage = () => {
   const navigate = useNavigate();
@@ -75,7 +77,7 @@ const CheckoutPage = () => {
         </div>
         <div className="w-full flex items-center justify-start gap-2">
           <img
-            src="/public/images/person_5.png"
+            src={person5}
             alt=""
             className="w-20 h-16 object-cover rounded-2xl "
           />
@@ -94,7 +96,7 @@ const CheckoutPage = () => {
         </div>
         <div className="w-full flex items-center justify-start gap-2">
           <img
-            src="/public/images/jordan_shoes.png"
+            src={jordanShoes}
             alt=""
             className="w-20 h-16 object-cover rounded-2xl "
           />

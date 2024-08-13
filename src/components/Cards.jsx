@@ -49,7 +49,7 @@ const Cards = () => {
           (text, i) => (
             <motion.button
               key={i}
-              custom={i} // Passe l'index comme prop personnalisée
+              custom={i}
               onClick={() => setSelectedCategory(text.split(" ")[0])}
               className={`px-4 md:px-6 py-3 md:py-4 ${
                 selectedCategory === text.split(" ")[0]
