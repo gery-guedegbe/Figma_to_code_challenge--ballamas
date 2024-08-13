@@ -1,4 +1,4 @@
-import person2 from "../public/images/person_2.png";
+import person2 from "../src/assets/images/person_2.png";
 
 const articles = [
   {
