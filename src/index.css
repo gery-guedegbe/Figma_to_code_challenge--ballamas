@@ -1,13 +1,36 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  max-width: 100%;
+  min-width: 100vh;
+
+  font-family: "Archivo", sans-serif;
+}
+
+.headerBackground {
+  max-width: 100%;
+  height: auto;
+  background-image: url(../public/assets/images/header_background.jfif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footerBackground {
+  max-width: 100%;
+  height: 440px;
+  background-image: url(../public/assets/images/person_3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
