@@ -75,7 +75,7 @@ const CheckoutPage = () => {
         </div>
         <div className="w-full flex items-center justify-start gap-2">
           <img
-            src="/images/person_5.png"
+            src="/public/images/person_5.png"
             alt=""
             className="w-20 h-16 object-cover rounded-2xl "
           />
@@ -94,7 +94,7 @@ const CheckoutPage = () => {
         </div>
         <div className="w-full flex items-center justify-start gap-2">
           <img
-            src="/images/jordan_shoes.png"
+            src="/public/images/jordan_shoes.png"
             alt=""
             className="w-20 h-16 object-cover rounded-2xl "
           />
