@@ -75,7 +75,7 @@ const CheckoutPage = () => {
         </div>
         <div className="w-full flex items-center justify-start gap-2">
           <img
-            src="assets/images/person_5.png"
+            src="/images/person_5.png"
             alt=""
             className="w-20 h-16 object-cover rounded-2xl "
           />
@@ -94,18 +94,20 @@ const CheckoutPage = () => {
         </div>
         <div className="w-full flex items-center justify-start gap-2">
           <img
-            src="assets/images/jordan_shoes.png"
+            src="/images/jordan_shoes.png"
             alt=""
             className="w-20 h-16 object-cover rounded-2xl "
           />
           <div className="w-full flex flex-col items-start justify-start gap-0">
-            <span className="text-base text-black font-semibold">T-shirt</span>
+            <span className="text-base text-black font-semibold">
+              Tatum 2 "Red Cement"
+            </span>
             <div className="w-full flex items-start justify-between">
               {" "}
               <span className="text-xs text-[#7E7E7E] font-medium">
-                Color: Green - Size: Large
+                Size: 15
               </span>
-              <span className="text-base text-black font-semibold">$100</span>
+              <span className="text-base text-black font-semibold">$125</span>
             </div>
           </div>
         </div>
@@ -246,7 +248,7 @@ const CheckoutPage = () => {
                 <input
                   type="text"
                   placeholder={field.placeholder}
-                  className="w-full px-4 py-3 ps-3 border border-black text-black text-sm font-medium placeholder:text-xs placeholder:text-black bg-transparent cursor-text outline-none rounded-full"
+                  className="w-full px-4 py-3 ps-3 border border-black text-black text-sm font-medium placeholder:text-xs placeholder:text-black bg-transparent cursor-text outline-none focus:ring-2 focus:shadow-lg focus:ring-teal-300 rounded-full"
                 />
               </div>
             ))}

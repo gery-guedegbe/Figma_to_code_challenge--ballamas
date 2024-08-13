@@ -9,11 +9,11 @@ import ConfirmPage from "./components/ConfirmPage.jsx";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Figma_to_code_challenge--ballamas">
       <div className="min-h-screen w-full flex flex-col items-center justify-between gap-12 bg-white">
         <NavBar />
         <Routes>
-          <Route path="" element={<Main />} />
+          <Route path="/" element={<Main />} />
           <Route path="/details" element={<Details />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<CheckoutPage />} />

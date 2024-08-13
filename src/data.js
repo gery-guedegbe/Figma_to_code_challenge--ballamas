@@ -2,37 +2,37 @@ const articles = [
   {
     name: "SUMMER SHIRT",
     price: 99,
-    image_url: "/assets/images/person_2.png",
+    image_url: "/images/person_2.png",
     category: "Accessories",
   },
   {
     name: "SUMMER SHIRT",
     price: 99,
-    image_url: "/assets/images/person_2.png",
+    image_url: "/images/person_2.png",
     category: "Featured",
   },
   {
     name: "SUMMER SHIRT",
     price: 99,
-    image_url: "/assets/images/person_2.png",
+    image_url: "/images/person_2.png",
     category: "Unisex",
   },
   {
     name: "SUMMER SHIRT",
     price: 99,
-    image_url: "/assets/images/person_2.png",
+    image_url: "/images/person_2.png",
     category: "Accessories",
   },
   {
     name: "SUMMER SHIRT",
     price: 99,
-    image_url: "/assets/images/person_2.png",
+    image_url: "/images/person_2.png",
     category: "Unisex",
   },
   {
     name: "SUMMER SHIRT",
     price: 99,
-    image_url: "/assets/images/person_2.png",
+    image_url: "/images/person_2.png",
     category: "Featured",
   },
 ];

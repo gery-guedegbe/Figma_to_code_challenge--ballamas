@@ -2,7 +2,12 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTrashAlt } from "@fortawesome/free-solid-svg-icons";
+import {
+  faMinus,
+  faPlus,
+  faPlusCircle,
+  faTrashAlt,
+} from "@fortawesome/free-solid-svg-icons";
 import cartProduct from "../cart_product";
 
 const Cart = () => {
@@ -109,16 +114,20 @@ const Cart = () => {
                   onClick={() => handleRemove(index)}
                   className="w-6 h-6 flex items-center justify-center"
                 >
-                  <img src="/assets/images/moins.svg" alt="" />
+                  <span className="w-2 h-2 p-2 border-2 flex items-center justify-center border-black text-black text-xs font-semibold rounded-full">
+                    <FontAwesomeIcon icon={faMinus} />
+                  </span>
                 </button>
                 <span className="text-base text-black font-semibold">
                   {product.quantity}
                 </span>
                 <button
                   onClick={() => handleAdd(index)}
-                  className="w-4 h-4 flex items-center justify-center"
+                  className="w-4 h-4 flex items-center justify-center "
                 >
-                  <img src="/assets/images/plus.svg" alt="" />
+                  <span className="w-2 h-2 p-2 border-2 flex items-center justify-center border-black text-black text-xs font-semibold rounded-full">
+                    <FontAwesomeIcon icon={faPlus} />
+                  </span>
                 </button>
                 <button
                   onClick={() => handleDelete(index)}
