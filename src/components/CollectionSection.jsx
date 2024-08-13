@@ -41,7 +41,7 @@ const CollectionSection = () => {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.9 }}
-          src="../public/images/person_1.png"
+          src="/images/person_1.png"
           alt="person-1"
           className="w-full h-auto object-cover col-span-1 rounded-3xl"
         />
