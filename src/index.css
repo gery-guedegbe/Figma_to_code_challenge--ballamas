@@ -20,7 +20,7 @@ body {
 .headerBackground {
   max-width: 100%;
   height: auto;
-  background-image: url(../public/assets/images/header_background.jfif);
+  background-image: url(/images/header_background/png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -29,7 +29,7 @@ body {
 .footerBackground {
   max-width: 100%;
   height: 440px;
-  background-image: url(../public/assets/images/person_3.png);
+  background-image: url(/images/person_3.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
