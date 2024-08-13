@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import person1 from "../assets/images/person_1.png";
 
 const CollectionSection = () => {
   const textAnimation = {
@@ -41,7 +42,7 @@ const CollectionSection = () => {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.9 }}
-          src="/images/person_1.png"
+          src={person1}
           alt="person-1"
           className="w-full h-auto object-cover col-span-1 rounded-3xl"
         />
