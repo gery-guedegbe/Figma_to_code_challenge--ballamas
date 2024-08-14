@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Figma_to_code_challenge--ballamas/static/css/main.b4e824cc.css",
-    "main.js": "/Figma_to_code_challenge--ballamas/static/js/main.7fe8b9f1.js",
+    "main.js": "/Figma_to_code_challenge--ballamas/static/js/main.6d7c4c8f.js",
     "static/js/453.0e9239f9.chunk.js": "/Figma_to_code_challenge--ballamas/static/js/453.0e9239f9.chunk.js",
     "static/media/person_6.png": "/Figma_to_code_challenge--ballamas/static/media/person_6.8897e3e22c5786b91e41.png",
     "static/media/person_2.png": "/Figma_to_code_challenge--ballamas/static/media/person_2.0b085fa0aa94bcefba42.png",
@@ -13,11 +13,11 @@
     "static/media/person_3.png": "/Figma_to_code_challenge--ballamas/static/media/person_3.adedee974eb3cf9a4074.png",
     "index.html": "/Figma_to_code_challenge--ballamas/index.html",
     "main.b4e824cc.css.map": "/Figma_to_code_challenge--ballamas/static/css/main.b4e824cc.css.map",
-    "main.7fe8b9f1.js.map": "/Figma_to_code_challenge--ballamas/static/js/main.7fe8b9f1.js.map",
+    "main.6d7c4c8f.js.map": "/Figma_to_code_challenge--ballamas/static/js/main.6d7c4c8f.js.map",
     "453.0e9239f9.chunk.js.map": "/Figma_to_code_challenge--ballamas/static/js/453.0e9239f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b4e824cc.css",
-    "static/js/main.7fe8b9f1.js"
+    "static/js/main.6d7c4c8f.js"
   ]
 }
