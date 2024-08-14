@@ -33,5 +33,5 @@ To get a local copy up and running, follow these simple steps:
 
 1. Clone the repo
    ```sh
-   git clone
+   git clone https://github.com/gery-guedegbe/Figma_to_code_challenge--ballamas.git
    ```
