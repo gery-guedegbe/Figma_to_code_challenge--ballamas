@@ -256,7 +256,7 @@ const NavBar = () => {
                 </defs>
               </svg>
             </a>
-            <a onClick={() => navigate("/cart")} href="#ff">
+            <button onClick={() => navigate("/cart")}>
               <svg
                 width="20"
                 height="20"
@@ -284,7 +284,7 @@ const NavBar = () => {
                   stroke-linecap="round"
                 />
               </svg>
-            </a>
+            </button>
           </motion.div>
         </div>
       </div>
