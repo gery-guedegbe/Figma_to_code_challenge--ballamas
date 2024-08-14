@@ -10,7 +10,7 @@ import ConfirmPage from "./components/ConfirmPage.jsx";
 function App() {
   return (
     <Router>
-      <div className="min-h-screen w-full flex flex-col items-center justify-between gap-12 bg-white">
+      <div className="min-h-screen w-full flex flex-col items-center justify-between gap-12 bg-white overflow-x-hidden">
         <NavBar />
         <Routes>
           <Route path="/" element={<Main />} />
