@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar.jsx";
 import Footer from "./components/Footer.jsx";
 import Details from "./components/Details.jsx";
@@ -9,7 +9,7 @@ import ConfirmPage from "./components/ConfirmPage.jsx";
 
 function App() {
   return (
-    <Router basename="/Figma_to_code_challenge--ballamas">
+    <Router>
       <div className="min-h-screen w-full flex flex-col items-center justify-between gap-12 bg-white">
         <NavBar />
         <Routes>
