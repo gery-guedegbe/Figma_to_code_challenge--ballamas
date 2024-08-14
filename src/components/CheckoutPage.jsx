@@ -267,7 +267,7 @@ const CheckoutPage = () => {
                 <input
                   type="text"
                   placeholder={field.placeholder}
-                  className="w-full px-4 py-3 ps-3 border border-black text-black text-sm font-medium placeholder:text-xs placeholder:text-black bg-transparent cursor-text outline-none rounded-full"
+                  className="w-full px-4 py-3 ps-3 border border-black text-black text-sm font-medium placeholder:text-xs placeholder:text-black bg-transparent cursor-text outline-none focus:ring-2 focus:shadow-lg focus:ring-teal-300 rounded-full"
                 />
               </div>
             ))}
@@ -294,18 +294,18 @@ const CheckoutPage = () => {
         <input
           type="text"
           placeholder="Card number"
-          className="w-full px-4 py-3 ps-3 border border-black text-black text-sm font-medium placeholder:text-xs placeholder:text-black bg-transparent cursor-text outline-none rounded-full"
+          className="w-full px-4 py-3 ps-3 border border-black text-black text-sm font-medium placeholder:text-xs placeholder:text-black bg-transparent cursor-text outline-none focus:ring-2 focus:shadow-lg focus:ring-teal-300 rounded-full"
         />
         <div className="w-full flex flex-col md:flex-row items-center md:items-start justify-between gap-8">
           <input
             type="text"
             placeholder="Expiration date (MM/YY)"
-            className="w-full px-4 py-3 ps-3 border border-black text-black text-sm font-medium placeholder:text-xs placeholder:text-black bg-transparent cursor-text outline-none rounded-full"
+            className="w-full px-4 py-3 ps-3 border border-black text-black text-sm font-medium placeholder:text-xs placeholder:text-black bg-transparent cursor-text outline-none focus:ring-2 focus:shadow-lg focus:ring-teal-300 rounded-full"
           />
           <input
             type="text"
             placeholder="Security code"
-            className="w-full px-4 py-3 ps-3 border border-black text-black text-sm font-medium placeholder:text-xs placeholder:text-black bg-transparent cursor-text outline-none rounded-full"
+            className="w-full px-4 py-3 ps-3 border border-black text-black text-sm font-medium placeholder:text-xs placeholder:text-black bg-transparent cursor-text outline-none focus:ring-2 focus:shadow-lg focus:ring-teal-300 rounded-full"
           />
         </div>
         <div class="inline-flex items-center gap-2">
